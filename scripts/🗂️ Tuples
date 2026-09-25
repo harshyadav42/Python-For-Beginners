@@ -1,0 +1,11 @@
+🗂️ Tuples – Store ordered, immutable values
+
+
+#tuple  --immutable
+marks_tuple=(90, 80, 70, 60, 50 ,"A", 40.4)
+print(marks_tuple ,type(marks_tuple))
+
+print(len(marks_tuple))
+print(marks_tuple[0])  #first element
+print(marks_tuple[-1]) #last element
+print(marks.count(90))  #count of 90 in tuple
