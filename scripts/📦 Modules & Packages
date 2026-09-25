@@ -1,0 +1,34 @@
+📦 Modules & Packages in Python
+Module: A Python file (.py) containing reusable code such as functions, variables, or classes.
+Package: A folder containing multiple related Python modules.
+import: Used to bring a module or package into your program.
+💻 Example
+
+calculator.py
+
+def add(a, b):
+    return a + b
+
+main.py
+
+import calculator
+
+result = calculator.add(10, 5)
+print(result)
+
+
+----------------------------------------------------------------------------
+
+
+import math
+print(dir(math))  #list of all functions in math module
+
+from math import sqrt,log
+print(sqrt(16))  #square root of 16
+print(log2(16))  #log base 2 of 16
+
+import random
+print(random.randint(1, 100))  #random integer between 1 and 100
+print(random.choice(["apple", "banana", "cherry"]))  #random choice from list
+print(random.random())  #random float between 0 and 1
+
