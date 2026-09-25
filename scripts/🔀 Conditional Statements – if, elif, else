@@ -1,0 +1,36 @@
+
+#conditional statements
+age=20
+if age>=18:
+    print("You are adult.")
+    print("You can drive.")
+elif age>=13:
+    print("You are teenager.")
+    print("You can go to school.")
+else:
+    print("You are child.")
+
+print("This is outside the if block.")
+
+
+#calculator
+number1=float(input("Enter first number: "))
+number2=float(input("Enter second number: "))
+operation=input("Enter operation (+, -, *, /): ")
+
+if operation=="+":
+    result=number1+number2
+elif operation=="-":
+    result=number1-number2
+elif operation=="*":
+    result=number1*number2
+elif operation=="/":
+    result=number1/number2
+else:
+    print("Invalid operation.")
+    result=None
+
+if result is not None:
+    print("Result:", result)
+
+
