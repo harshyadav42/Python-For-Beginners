@@ -1,0 +1,37 @@
+📋 Lists – Store multiple values in an ordered collection
+
+
+
+#List  --mutable
+marks=[90, 80, 70, 60, 50 ,"A", 40.4]
+print(marks ,type(marks))
+
+#length of list
+print(len(marks))
+#index
+print(marks[0])  #first element
+print(marks[-1]) #last element
+print(marks[1:4]) #slicing 1 to 3
+print(marks[-3:-1]) 
+
+#looping through list
+for score in marks:
+    print(score)
+
+# modifying list elements
+marks[0] = 95
+print(marks)
+
+# adding elements to list at the end
+marks.append(85)
+print(marks)
+
+# removing elements from list
+marks.remove("A")
+print(marks)
+
+marks.insert(2, 75)  #insert 75 at index 2
+print(marks)
+
+print(90 in marks)  #True
+print(100 in marks) #False
