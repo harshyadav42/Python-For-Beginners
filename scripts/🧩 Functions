@@ -1,0 +1,36 @@
+🧩 Functions – Create reusable blocks of code
+
+
+#functions         user-defined functions
+#defining a function
+def sum(a, b):
+    print(a + b)
+
+#calling a function
+sum(10, 20)
+
+
+
+def calc_gst(price):   #price is parameter
+    new_price=price + (price * 0.18)
+    return new_price
+
+print(calc_gst(1000))         #calling a function with argument 1000
+
+#in-built functions
+print(len("Hello World"))  #length of string
+print(max(10, 20, 30))     #maximum of numbers
+print(min(10, 20, 30))     #minimum of numbers
+
+#module functions
+import math
+print(dir(math))  #list of all functions in math module
+
+from math import sqrt,log
+print(sqrt(16))  #square root of 16
+print(log2(16))  #log base 2 of 16
+
+import random
+print(random.randint(1, 100))  #random integer between 1 and 100
+print(random.choice(["apple", "banana", "cherry"]))  #random choice from list
+print(random.random())  #random float between 0 and 1
