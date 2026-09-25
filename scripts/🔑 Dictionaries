@@ -1,0 +1,20 @@
+🔑 Dictionaries – Store data as key-value pairs
+
+ #dictionary  --mutable   store data in key-value pairs
+marks_dict={"Math":90, "Science":80, "English":70}
+print(marks_dict ,type(marks_dict))
+print(len(marks_dict))
+
+ marks_dict["Math"] = 95  #modifying value of key "Math"
+print(marks_dict)
+
+marks_dict["History"] = 85  #adding new key-value pair
+print(marks_dict)
+
+print(marks_dict["Science"])  #accessing value of key "Science"
+
+#loops in dictionary
+for subject in marks_dict:
+    print(subject, marks_dict[subject])  #printing key and value
+
+
