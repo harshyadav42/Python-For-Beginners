@@ -1,0 +1,11 @@
+🎯 Sets – Store unique values
+
+
+#set  --mutable but unique elements
+marks_set={90, 80, 70, 90,80}  #duplicates will be removed
+print(marks_set ,type(marks_set))
+print(len(marks_set))
+
+#loops in set
+for score in marks_set:
+    print(score)    
