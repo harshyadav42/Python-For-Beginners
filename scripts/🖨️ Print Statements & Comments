@@ -1,0 +1,16 @@
+# ==========================================
+# 🐍 PRINT STATEMENTS & COMMENTS
+# ==========================================
+
+# print() is used to display output on the screen
+print("Hello World")
+print("Harsh")
+
+📝 What are Comments in Python?
+
+Comments are lines in a Python program that are written to explain the code. Python does not execute comments.
+
+Comments are mainly used to make code easier to read, understand, and maintain.
+
+     # This is a comment
+print("Hello World")
