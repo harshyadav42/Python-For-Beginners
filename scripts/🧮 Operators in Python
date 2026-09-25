@@ -1,0 +1,45 @@
+# ==========================================
+# 🧮 OPERATORS IN PYTHON
+# ==========================================
+
+
+# ==========================================
+# 1. ARITHMETIC OPERATORS
+# ==========================================
+
+a = 10
+b = 3
+
+print("Addition:", a + b)          # +
+print("Subtraction:", a - b)       # -
+print("Multiplication:", a * b)    # *
+print("Division:", a / b)          # /
+print("Modulus:", a % b)           # %
+print("Exponent:", a ** b)         # **
+print("Floor Division:", a // b)   # //
+
+
+# ==========================================
+# 2. COMPARISON OPERATORS
+# ==========================================
+
+x = 10
+y = 5
+
+print("Equal:", x == y)             # ==
+print("Not Equal:", x != y)         # !=
+print("Greater Than:", x > y)       # >
+print("Less Than:", x < y)          # <
+print("Greater or Equal:", x >= y)  # >=
+print("Less or Equal:", x <= y)     # <=
+
+
+# ==========================================
+# 3. LOGICAL OPERATORS
+# ==========================================
+
+age = 20
+
+print(age > 18 and age < 30)  # and
+print(age < 18 or age > 18)   # or
+print(not age > 18)           # not
