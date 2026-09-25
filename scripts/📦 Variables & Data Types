@@ -1,0 +1,74 @@
+# ==========================================
+# 📦 VARIABLES & DATA TYPES
+# ==========================================
+
+# ------------------------------------------
+# 1. Creating Variables
+# ------------------------------------------
+
+name = "Harsh"     # String
+age = 20           # Integer
+
+print(name)
+print(age)
+
+# Printing variables with text
+print("My name is", name, "and I am", age, "years old.")
+
+
+# ------------------------------------------
+# 2. Printing Multiple Variables
+# ------------------------------------------
+
+print(name, age)
+
+
+# ------------------------------------------
+# 3. Variable Reassignment
+# ------------------------------------------
+
+# Changing the existing values
+name = "Harshit"
+age = 21
+
+print(name, age)
+
+
+# ------------------------------------------
+# 4. Checking Data Types
+# ------------------------------------------
+
+# type() is used to check the data type of a variable
+print(type(name))
+print(type(age))
+
+# Output:
+# <class 'str'>
+# <class 'int'>
+
+
+# ==========================================
+# ⌨️ USER INPUT
+# ==========================================
+
+# ------------------------------------------
+# 5. Taking Input from User
+# ------------------------------------------
+
+name = input("Enter your name: ")
+
+print("Hello", name)
+
+# String concatenation
+print("Hello " + name)
+
+
+# ------------------------------------------
+# 6. Taking Multiple Inputs
+# ------------------------------------------
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+height = input("Enter your height: ")
+
+print("Hello Superhero", name)
